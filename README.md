@@ -1,6 +1,6 @@
 # BERT Llama2 Medical Chatbot
 
-This repository contains code for a medical chatbot powered by BERT (Bidirectional Encoder Representations from Transformers), specifically trained on medical data using the Llama2 framework.
+This repository contains code for a medical chatbot powered by BERT (Bidirectional Encoder Representations from Transformers), specifically trained on medical data , and using the Llama2 framework to reformulate answers.
 
 ## About the Chatbot
 
