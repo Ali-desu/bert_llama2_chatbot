@@ -10,9 +10,8 @@ The chatbot utilizes state-of-the-art NLP techniques to provide responses to med
 
 To utilize the chatbot, follow these steps:
 
-1. **Training the Model**: Execute the provided Jupyter Notebook (`medical_intent_detector_using_bert.ipynb`) to train the BERT model on medical data. This step is crucial for ensuring the chatbot's accuracy and relevance to medical queries.
-
-2. **Running the Chatbot**: Execute `chatbot.py` to run the chatbot application. Users can interact with the chatbot through this interface.
+1. **Training the Model**: Execute the provided Jupyter Notebook (`medical_intent_detector_using_bert.ipynb`) to train the BERT model on medical data. This step is crucial for the chatbot to work , if you run it on cpu it might takes a long time (2 hours max) 
+2. **Running the Chatbot**: Execute `chatbot.py` to run the chatbot application. 
 
 
 ## Acknowledgments
