@@ -84,18 +84,21 @@ def getResponse(intent):
     else:
         print("I'm sorry, I don't have information about that.")
 
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-@app.route('/chat', methods=['POST'])
+@app.route('/chat')
+def chat_page():
+    return render_template('chat.html')
+
+@app.route('/chat/message', methods=['POST'])
 def chat():
     request_data = request.get_json()
     user_message = request_data['message']
     intent = medical_symptom_detector(user_message)
     response = getResponse(intent)
     return jsonify({'message': response})
-
-@app.route('/')
-def index():
-    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
